@@ -9,7 +9,7 @@
 
 [![Telegram](https://i.postimg.cc/Y0r70mtF/images-removebg-preview.png)](https://t.me/FAKE_TECH_BD)
 
-•
+[![youtube](https://i.postimg.cc/Wz8pTcJs/360-F-474059464-qld-Yuzxa-UWEw-NTt-YBJ44-VN89-ARu-Fkt-HW-removebg-preview.png)](https://youtube.com/@faketechbd?si=jhMd3kSsKXeBWThd)
 
 > [!WARNING]  
 > Selling this tool in any form is strictly prohibited!
@@ -113,7 +113,7 @@ Every donation helps us maintain quality service and continue providing valuable
 
 Much love 😘😘😘
 
- **•       ====== BKASH ====== •***![](https://i.postimg.cc/nLp92XLR/IMG-20241019-141230.jpg)
+ **•       ====== BKASH ====== •**![](https://i.postimg.cc/nLp92XLR/IMG-20241019-141230.jpg)
 
 **•        ====== BINANCE ====== •**
 
