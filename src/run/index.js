@@ -158,11 +158,7 @@ const run = async (user, index) => {
 };
 console.log(
   colors.green.bold(
-'┏━━┳━━┳┳┳━┓┏━━┳━┳━┳┓┏┓
-'┃━┳┫┏┓┃┏┫┳┛┗┓┏┫┳┫┏┫┗┛┃
-'┃┏┛┃┣┫┃┗┫┻┓╋┃┃┃┻┫┗┫┏┓┃
-'┗┛╋┗┛┗┻┻┻━┛╋┗┛┗━┻━┻┛┗┛''
-
+ 'FAKE TECH BD'
 )
 );
 console.log(
