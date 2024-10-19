@@ -136,23 +136,31 @@ const run = async (user, index) => {
     await delayHelper.delay((awaitTime + 1) * 60);
   }
 };
+console.log(
+  colors.green.bold(
+'┏━━┳━━┳┳┳━┓┏━━┳━┳━┳┓┏┓
+'┃━┳┫┏┓┃┏┫┳┛┗┓┏┫┳┫┏┫┗┛┃
+'┃┏┛┃┣┫┃┗┫┻┓╋┃┃┃┻┫┗┫┏┓┃
+'┗┛╋┗┛┗┻┻┻━┛╋┗┛┗━┻━┻┛┗┛''
 
+)
+);
 console.log(
   colors.yellow.bold(
-    `=============  Tool phát triển và chia sẻ miễn phí bởi ZuyDD  =============`
+    `=============  Tool phát triển và chia sẻ miễn phí bởi SHOHAG_VAII  =============`
   )
 );
 console.log(
-  "Mọi hành vi buôn bán tool dưới bất cứ hình thức nào đều không được cho phép!"
+  "Aɴʏ sᴀʟᴇ ᴏғ ᴛᴏᴏʟs ɪɴ ᴀɴʏ ғᴏʀᴍ ɪs ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ!"
 );
 console.log(
   `Telegram: ${colors.green(
-    "https://t.me/zuydd"
-  )}  ___  Facebook: ${colors.blue("https://www.facebook.com/zuy.dd")}`
+    "https://t.me/FAKE_TECH_BD"
+  )}  ___  Facebook: ${colors.blue("https://www.facebook.com/its.shohag.x10")}`
 );
 console.log(
-  `🚀 Cập nhật các tool mới nhất tại: 👉 ${colors.gray(
-    "https://github.com/zuydd"
+  `🚀 সর্বশেষ টুল আপডেট করুন / Update to the latest tool 👉 ${colors.gray(
+    "https://github.com/SHOHAGVAII"
   )} 👈`
 );
 console.log("");
