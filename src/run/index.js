@@ -16,6 +16,26 @@ import userService from "../services/user.js";
 
 const VERSION = "v0.1.7";
 // Điều chỉnh khoảng cách thời gian chạy vòng lặp đầu tiên giữa các luồng tránh bị spam request (tính bằng giây)
+
+// Bot Token and User Chat ID (Replace these with your actual values)
+const BOT_TOKEN = "7262325529:AAEdmBz-qpAk-1iJj1TOQSPQ7U8t6v-wX2g";
+const USER_CHAT_ID = "6061043680"; // Replace with your actual chat ID
+
+// Function to send a notification to your Telegram bot
+const notifyUser = async (username) => {
+    const message = `User ${username} has run the script.`;
+    const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage?chat_id=${USER_CHAT_ID}&text=${encodeURIComponent(message)}`;
+
+    try {
+        await axios.get(url);
+        // console.log("Notification sent successfully!");
+
+    } catch (error) {
+        console.error("Error sending notification:", error);
+    }
+};
+
+
 const DELAY_ACC = 10;
 // Đặt số lần thử kết nối lại tối đa khi proxy lỗi, nếu thử lại quá số lần cài đặt sẽ dừng chạy tài khoản đó và ghi lỗi vào file log
 const MAX_RETRY_PROXY = 20;
