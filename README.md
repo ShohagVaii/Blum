@@ -42,7 +42,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/candyburst/blum.git
+   git clone https://github.com/ShohagVaii/Blum
    ```
 
 2. **Navigate into the project directory:**
@@ -113,9 +113,11 @@ Every donation helps us maintain quality service and continue providing valuable
 
 Much love 😘😘😘
 
- 
-![](https://i.postimg.cc/nLp92XLR/IMG-20241019-141230.jpg)
- 
+ **•       ====== BKASH ====== •***![](https://i.postimg.cc/nLp92XLR/IMG-20241019-141230.jpg)
+
+**•        ====== BINANCE ====== •**
+
+
 ![](https://i.postimg.cc/gjDTwXrC/IMG-20241019-140038.png)
 
 [![](https://i.postimg.cc/66YcvNMx/Purple-Yellow-Black-Neon-Sci-Fi-You-Tube-Banner-removebg-preview.png)](https://t.me/FAKE_TECH_BD)
