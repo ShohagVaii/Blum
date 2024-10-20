@@ -90,7 +90,7 @@ class AuthService {
       };
     }
     user.log.logError(
-      "Login process failed, please check your account information (you may need to retrieve a new query_id). The system will attempt to log in again after 60s"
+      "Login process failed, please check your account information (you may need to retrieve a new query_id). The system will attempt to log in again after 60s Or Contact @SHOHAG_VAII"
     );
     return {
       status: 0,
