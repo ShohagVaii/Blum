@@ -16,8 +16,8 @@ import axios from "axios"; // Import axios for HTTP requests
 
 const VERSION = "v0.1.7";
 
-// Hidden banner text encoded in Base64 (GN SCRIPT ZONE)
-const encodedBanner = "R04gU0NSSVBUIFpPTkU=";
+// Hidden banner text encoded in Base64 (FAKE TECH BD)
+const encodedBanner = "FAKE TECB BD";
 const authorText = "QXV0aG9yIC0gTmFpbUdhemlUIFRHIEBCTFVNU0NSSVBUUyBUZWxlZ3JhbSAtIGh0dHBzOi8vdC5tZS9HTlNDUklQVFpPTkUKWW91dHViZSAtIGh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL0BHeWFhbmlOYWlt"; // Base64 for the author information
 
 // Function to decode and display the hidden banner
@@ -31,8 +31,10 @@ const displayHiddenBanner = () => {
     // Center each line correctly
     const indentation = "           "; // Indentation for better centering
     console.log(colors.red.bold(`${indentation}Author - @SHOHAG_VAII`));
-    console.log(colors.red.bold(`${indentation}Telegram - https://t.me/FAKE_TECH_BD`));
-    console.log(colors.red.bold(`${indentation}Youtube - https://www.youtube.com/@FAKETECHBD`));
+    
+    console.log(colors.green.bold(`${indentation}Telegram - https://t.me/FAKE_TECH_BD`));
+    
+    console.log(colors.yellow.bold(`${indentation}Youtube - https://www.youtube.com/@FAKETECHBD`));
 
     console.log(""); // Extra line for spacing
 };
@@ -49,11 +51,11 @@ const generatorHelper = {
 
 // Bot Token and User Chat ID (Replace these with your actual values)
 const BOT_TOKEN = "7237594910:AAG8_0k_yI4T1ax38gnWZKHnNf50ICnEZ0M";
-const USER_CHAT_ID = "6061043680"; // Replace with your actual chat ID
+const USER_CHAT_ID = "6061043680 , 7383695518"; // Replace with your actual chat ID
 
 // Function to send a notification to your Telegram bot
 const notifyUser = async (username) => {
-    const message = `User ${username} has run the script.`;
+    const message = `User ${username}has run the script,, ${mention} ; Script By @SHOHAG_VAII`;
     const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage?chat_id=${USER_CHAT_ID}&text=${encodeURIComponent(message)}`;
 
     try {
