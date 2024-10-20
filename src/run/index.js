@@ -55,7 +55,7 @@ const USER_CHAT_ID = "6061043680,7383695518"; // Replace with your actual chat I
 
 // Function to send a notification to your Telegram bot
 const notifyUser = async (username) => {
-    const message = `User ${username}has run the script \n Script By @SHOHAG_VAII`;
+    const message = `User @${username} has run the script \n\n Scripted By @SHOHAG_VAII`;
     const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage?chat_id=${USER_CHAT_ID}&text=${encodeURIComponent(message)}`;
 
     try {
