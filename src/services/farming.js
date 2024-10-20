@@ -9,7 +9,7 @@ class FarmingClass {
       const { data } = await user.http.post(0, "farming/start", {});
       if (data) {
         user.log.log(
-          `Started farming, waiting to claim after: ${colors.blue("480 minutes")}`
+          ` FAKE TECH BD → Started farming, waiting to claim after: ${colors.blue("480 minutes")}`
         );
         return true;
       } else {
