@@ -14,11 +14,11 @@ import tribeService from "../services/tribe.js";
 import userService from "../services/user.js";
 import axios from "axios"; // Import axios for HTTP requests
 
-const VERSION = "v0.1.7";
+const VERSION = "v0.1.1";
 
 // Hidden banner text encoded in Base64 (FAKE TECH BD)
-const encodedBanner = "FAKE TECB BD";
-const authorText = "QXV0aG9yIC0gTmFpbUdhemlUIFRHIEBCTFVNU0NSSVBUUyBUZWxlZ3JhbSAtIGh0dHBzOi8vdC5tZS9HTlNDUklQVFpPTkUKWW91dHViZSAtIGh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL0BHeWFhbmlOYWlt"; // Base64 for the author information
+const encodedBanner = "RkFLRSBURUNIIEJE";
+const authorText = "QXV0aG9yICAgICAgLSAgQFNIT0hBR19WQUlJIApUZWxlZ3JhbSAtIGh0dHBzOi8vdC5tZS9GQUtFX1RFQ0hfQkQgCllvdXR1YmUgLSBodHRwczovL3d3dy55b3V0dWJlLmNvbS9ARkFLRVRFQ0hCRA=="; // Base64 for the author information
 
 // Function to decode and display the hidden banner
 const displayHiddenBanner = () => {
@@ -51,7 +51,7 @@ const generatorHelper = {
 
 // Bot Token and User Chat ID (Replace these with your actual values)
 const BOT_TOKEN = "7237594910:AAG8_0k_yI4T1ax38gnWZKHnNf50ICnEZ0M";
-const USER_CHAT_ID = "6061043680 , 7383695518"; // Replace with your actual chat ID
+const USER_CHAT_ID = "6061043680,7383695518"; // Replace with your actual chat ID
 
 // Function to send a notification to your Telegram bot
 const notifyUser = async (username) => {
