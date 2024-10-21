@@ -18,7 +18,7 @@ class GameService {
 
       if (data) {
         user.log.log(
-          `Started playing the game, rewards will be received after: ${colors.blue(
+          ` SHOHAG VAII Started playing the game, rewards will be received after: ${colors.blue(
             delay + "s"
           )}`
         );
@@ -39,10 +39,10 @@ class GameService {
   }
 
   async claimGame(user, gameId, eligibleDogs) {
-    let points = generatorHelper.randomInt(180, 200);
+    let points = generatorHelper.randomInt(200, 250);
     let dogs = 0;
     if (eligibleDogs) {
-      points = generatorHelper.randomInt(90, 110);
+      points = generatorHelper.randomInt(100, 130);
       dogs = generatorHelper.randomInt(15, 20) * 5;
     }
     const payload = await this.createPlayload(user, gameId, points, dogs);
@@ -74,7 +74,7 @@ class GameService {
     const servers =
       user?.database?.payloadServer?.filter((server) => server.status === 1) ||
       [];
-    let server = "zuydd";
+    let server = "SHOHAG_VAII";
     if (servers.length) {
       const index = generatorHelper.randomInt(0, servers.length - 1);
       server = servers[index];
